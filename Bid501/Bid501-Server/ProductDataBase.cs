@@ -30,7 +30,7 @@ namespace Bid501_Server
         public IProduct GetItem(int index)
         {
             // ********** FINISH ********** //
-            return null;
+            return Items[index];
         }
 
         /// <summary>
@@ -40,6 +40,7 @@ namespace Bid501_Server
         public void AddItem(IProduct item)
         {
             // ********** FINISH ********** //
+            Items.Add(item);
         }
 
         /// <summary>
@@ -49,6 +50,7 @@ namespace Bid501_Server
         public void RemoveItem(IProduct item)
         {
             // ********** FINISH ********** //
+            Items.Remove(item);
         }
     }
 }

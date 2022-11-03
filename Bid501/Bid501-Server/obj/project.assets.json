@@ -27,43 +27,39 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\devangriffin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\coham\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devangriffin\\source\\repos\\Bid501-Library\\Bid501-Server\\Bid501-Server.csproj",
+      "projectUniqueName": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
       "projectName": "Bid501-Server",
-      "projectPath": "C:\\Users\\devangriffin\\source\\repos\\Bid501-Library\\Bid501-Server\\Bid501-Server.csproj",
-      "packagesPath": "C:\\Users\\devangriffin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devangriffin\\source\\repos\\Bid501-Library\\Bid501-Server\\obj\\",
+      "projectPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
+      "packagesPath": "C:\\Users\\coham\\.nuget\\packages\\",
+      "outputPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\devangriffin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\coham\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\devangriffin\\source\\repos\\Bid501-Library\\Bid501-Library\\Bid501-Library.csproj": {
-              "projectPath": "C:\\Users\\devangriffin\\source\\repos\\Bid501-Library\\Bid501-Library\\Bid501-Library.csproj"
+            "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj": {
+              "projectPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj"
             }
           }
         }
@@ -93,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
