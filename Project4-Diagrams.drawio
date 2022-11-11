@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T21:12:32.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="faNHOmCblVq98rB94cGA" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-11T21:13:08.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RSb7-nhnYEH91nsVRaup" version="20.5.3" type="github" pages="4">
   <diagram id="_ybg5xmUOyzJaFLOutYX" name="Client UML Start">
-    <mxGraphModel dx="1560" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -271,7 +271,7 @@
         <mxCell id="s_Hu0N8brTCRO-Dts35n-58" value="+ UpdateView(State)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s_Hu0N8brTCRO-Dts35n-57">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="s_Hu0N8brTCRO-Dts35n-61" value="Controller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="s_Hu0N8brTCRO-Dts35n-61" value="ServerController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="1470" y="78" width="200" height="156" as="geometry" />
         </mxCell>
         <mxCell id="s_Hu0N8brTCRO-Dts35n-62" value="+ Database" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s_Hu0N8brTCRO-Dts35n-61">
@@ -377,7 +377,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RXmLAJ9UlksHB3l0QW5r" name="UC-Login">
-    <mxGraphModel dx="918" dy="1304" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1560" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -601,7 +601,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d5FgM2UOrxNh3VXA6V6U-1" value="View (Ca)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="d5FgM2UOrxNh3VXA6V6U-1" value="ServerView (Ca)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="160" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="d5FgM2UOrxNh3VXA6V6U-2" value="Jake" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
@@ -610,7 +610,7 @@
         <mxCell id="d5FgM2UOrxNh3VXA6V6U-3" value="Add Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="140" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d5FgM2UOrxNh3VXA6V6U-4" value="Controller (Ca)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="d5FgM2UOrxNh3VXA6V6U-4" value="ServerController (Ca)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="450" y="160" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="d5FgM2UOrxNh3VXA6V6U-5" value="Database (S)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
