@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\School_Code\CIS_501\Bid501-Team14B\Bid501\Bid501-Client\obj\Debug\net6.0-windows\
+C:\Users\Devan\Source\Repos\Bid501-Team14B\Bid501\Bid501-Client\obj\Debug\net6.0-windows\
 Bid501_Client
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\School_Code\CIS_501\Bid501-Team14B\Bid501\Bid501-Client\App.xaml
-11407045341
+C:\Users\Devan\Source\Repos\Bid501-Team14B\Bid501\Bid501-Client\App.xaml
+2-874545204
 
-727356408
-195-1009552432
-MainWindow.xaml;
+9-478272467
+195-83600628
+LoginForm.xaml;MainWindow.xaml;
 
-False
+True
 

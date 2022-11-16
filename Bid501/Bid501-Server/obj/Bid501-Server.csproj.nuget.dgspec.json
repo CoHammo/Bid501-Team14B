@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj": {}
+    "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj": {}
   },
   "projects": {
-    "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj": {
+    "C:\\Users\\Devan\\Source\\Repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj",
+        "projectUniqueName": "C:\\Users\\Devan\\Source\\Repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj",
         "projectName": "Bid501-Library",
-        "projectPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj",
-        "packagesPath": "C:\\Users\\coham\\.nuget\\packages\\",
-        "outputPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\obj\\",
+        "projectPath": "C:\\Users\\Devan\\Source\\Repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj",
+        "packagesPath": "C:\\Users\\Devan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Devan\\Source\\Repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\coham\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Devan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,40 +55,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj": {
+    "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
+        "projectUniqueName": "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
         "projectName": "Bid501-Server",
-        "projectPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
-        "packagesPath": "C:\\Users\\coham\\.nuget\\packages\\",
-        "outputPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Server\\obj\\",
+        "projectPath": "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Server\\Bid501-Server.csproj",
+        "packagesPath": "C:\\Users\\Devan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\coham\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Devan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj": {
-                "projectPath": "D:\\School_Code\\CIS_501\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj"
+              "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj": {
+                "projectPath": "C:\\Users\\Devan\\source\\repos\\Bid501-Team14B\\Bid501\\Bid501-Library\\Bid501-Library.csproj"
               }
             }
           }
@@ -104,8 +96,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -120,9 +112,12 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

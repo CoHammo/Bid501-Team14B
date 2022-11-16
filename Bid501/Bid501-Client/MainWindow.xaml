@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Bid501_Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="600">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Name="TitleLabel" Content="Bid501" FontSize="20" Grid.ColumnSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="2" Grid.Row="1" Grid.RowSpan="5" Margin="10"/>
+        <Label Name="ProductsListLabel" Content="Products:" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+        <Label Name="ProductNameLabel" Content="Current Product: " Grid.Row="1"/>
+        <Label Name="BidEndLabel" Content="Bid End Time: " Grid.Row="2"/>
+        <Label Name="StatusLabel" Content="Status: " Grid.Row="3"/>
+        <TextBox Name="BidTextBox" Grid.Row="4" Margin="10"/>
+        <Label Name="BidLabel" Content="X Bids" Grid.Column="1" Grid.Row="4" VerticalAlignment="Center"/>
+        <Label Name="MinBidLabel" Content="Minimum Bid: " Grid.Row="5"/>
+        <Button Name="PlaceBidButton" Content="Place Bid" Grid.Row="6" Margin="10"/>
     </Grid>
 </Window>

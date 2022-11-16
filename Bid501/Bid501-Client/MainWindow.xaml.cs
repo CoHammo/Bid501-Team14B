@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Bid501_Library;
 
 namespace Bid501_Client
 {
@@ -20,9 +21,17 @@ namespace Bid501_Client
     /// </summary>
     public partial class MainWindow : Window
     {
+        PlaceBid placeBid;
+        ListBox Items;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public void Update(State state)
+        {
+
         }
     }
 }

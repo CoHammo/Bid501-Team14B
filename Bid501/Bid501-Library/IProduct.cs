@@ -21,5 +21,15 @@
         /// The index of the item in the database
         /// </summary>
         public int DBIndex { get; set; }
+
+        /// <summary>
+        /// The time that the bidding ends
+        /// </summary>
+        public DateTime BidEndTime { get; set; }
+
+        /// <summary>
+        /// The amount of bids on the product
+        /// </summary>
+        public int NumBids { get; set; }
     }
 }

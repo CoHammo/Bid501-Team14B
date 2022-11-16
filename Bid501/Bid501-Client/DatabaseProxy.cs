@@ -7,7 +7,7 @@ using Bid501_Library;
 
 namespace Bid501_Client
 {
-    public class DatabaseProxy : IDataBase
+    public class DataBaseProxy : IDataBase
     {
         /// <summary>
         /// The product list

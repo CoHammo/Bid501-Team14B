@@ -12,21 +12,31 @@ namespace Bid501_Client
         /// <summary>
         /// The name of the product
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = "";
 
         /// <summary>
         /// The price of the product
         /// </summary>
-        public decimal Price { get; set; }
+        public decimal Price { get; set; } = 0.00m;
 
         /// <summary>
         /// The description of the product
         /// </summary>
-        public string Description { get; set; }
+        public string Description { get; set; } = "";
 
         /// <summary>
         /// The index of the item in the database
         /// </summary>
         public int DBIndex { get; set; }
+
+        /// <summary>
+        /// The time that the bidding ends
+        /// </summary>
+        public DateTime BidEndTime { get; set; }
+
+        /// <summary>
+        /// The amount of bids on the product
+        /// </summary>
+        public int NumBids { get; set; } = 0;
     }
 }
